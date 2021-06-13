@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/javarush-telegrambot.iml" filepath="$PROJECT_DIR$/.idea/javarush-telegrambot.iml" />
       <module fileurl="file://$PROJECT_DIR$/untitled1/maven-demo.iml" filepath="$PROJECT_DIR$/untitled1/maven-demo.iml" />
     </modules>
   </component>
