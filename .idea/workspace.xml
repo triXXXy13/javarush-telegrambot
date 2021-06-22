@@ -4,10 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="012b9fc9-45c2-4849-ad4d-39ed2dbf0f1b" name="Default Changelist" comment="JRTB-2 added stub telegrambot to the project">
-      <change afterPath="$PROJECT_DIR$/RELEASE_NOTES.md" afterDir="false" />
+    <list default="true" id="012b9fc9-45c2-4849-ad4d-39ed2dbf0f1b" name="Default Changelist" comment="JRTB-2 updated project version and added to RELEASE_NOTES.md">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/javarushcommunity/jrtb/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/javarushcommunity/jrtb/command/CommandContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/javarushcommunity/jrtb/command/CommandName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/javarushcommunity/jrtb/command/HelpCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/javarushcommunity/jrtb/command/NoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/javarushcommunity/jrtb/command/StartCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/javarushcommunity/jrtb/command/StopCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/javarushcommunity/jrtb/command/UnknownCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/javarushcommunity/jrtb/service/SendBotMessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/javarushcommunity/jrtb/service/SendBotMessageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/javarushcommunity/jrtb/command/AbstractCommandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/javarushcommunity/jrtb/command/CommandContainerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/javarushcommunity/jrtb/command/HelpCommandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/javarushcommunity/jrtb/command/NoCommandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/javarushcommunity/jrtb/command/StartCommandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/javarushcommunity/jrtb/command/StopCommandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/javarushcommunity/jrtb/command/UnknownCommandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/javarushcommunity/jrtb/service/SendBotMessageServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/javarushcommunity/jrtb/bot/JavarushTelegramBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/javarushcommunity/jrtb/bot/JavarushTelegramBot.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +35,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -40,6 +60,10 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -78,7 +102,9 @@
       <workItem from="1623446250336" duration="471000" />
       <workItem from="1623446871047" duration="1469000" />
       <workItem from="1623600964453" duration="1308000" />
-      <workItem from="1623787554333" duration="3734000" />
+      <workItem from="1623787554333" duration="4762000" />
+      <workItem from="1624201118774" duration="4183000" />
+      <workItem from="1624387094010" duration="3021000" />
     </task>
     <task id="LOCAL-00001" summary="minor fixes">
       <created>1623601210621</created>
@@ -94,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623790811787</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="JRTB-2 updated project version and added to RELEASE_NOTES.md">
+      <created>1623791775506</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1623791775506</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,7 +144,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="JRTB-3" />
                       </list>
                     </value>
                   </entry>
@@ -128,6 +161,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="minor fixes" />
     <MESSAGE value="JRTB-2 added stub telegrambot to the project" />
-    <option name="LAST_COMMIT_MESSAGE" value="JRTB-2 added stub telegrambot to the project" />
+    <MESSAGE value="JRTB-2 updated project version and added to RELEASE_NOTES.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="JRTB-2 updated project version and added to RELEASE_NOTES.md" />
   </component>
 </project>
