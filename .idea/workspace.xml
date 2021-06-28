@@ -4,28 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="012b9fc9-45c2-4849-ad4d-39ed2dbf0f1b" name="Default Changelist" comment="JRTB-2 updated project version and added to RELEASE_NOTES.md">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/javarushcommunity/jrtb/command/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/javarushcommunity/jrtb/command/CommandContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/javarushcommunity/jrtb/command/CommandName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/javarushcommunity/jrtb/command/HelpCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/javarushcommunity/jrtb/command/NoCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/javarushcommunity/jrtb/command/StartCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/javarushcommunity/jrtb/command/StopCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/javarushcommunity/jrtb/command/UnknownCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/javarushcommunity/jrtb/service/SendBotMessageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/javarushcommunity/jrtb/service/SendBotMessageServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/javarushcommunity/jrtb/command/AbstractCommandTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/javarushcommunity/jrtb/command/CommandContainerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/javarushcommunity/jrtb/command/HelpCommandTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/javarushcommunity/jrtb/command/NoCommandTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/javarushcommunity/jrtb/command/StartCommandTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/javarushcommunity/jrtb/command/StopCommandTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/javarushcommunity/jrtb/command/UnknownCommandTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/javarushcommunity/jrtb/service/SendBotMessageServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+    <list default="true" id="012b9fc9-45c2-4849-ad4d-39ed2dbf0f1b" name="Default Changelist" comment="JRTB-3 updated RELEASE_NOTES.md">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/start.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stop.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/javarushcommunity/jrtb/bot/JavarushTelegramBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/javarushcommunity/jrtb/bot/JavarushTelegramBot.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,14 +55,21 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../javarush-telegrambot-main" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Пользователь\IdeaProjects\javarush-telegrambot\" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -104,7 +95,8 @@
       <workItem from="1623600964453" duration="1308000" />
       <workItem from="1623787554333" duration="4762000" />
       <workItem from="1624201118774" duration="4183000" />
-      <workItem from="1624387094010" duration="3021000" />
+      <workItem from="1624387094010" duration="3803000" />
+      <workItem from="1624898476035" duration="1270000" />
     </task>
     <task id="LOCAL-00001" summary="minor fixes">
       <created>1623601210621</created>
@@ -127,7 +119,21 @@
       <option name="project" value="LOCAL" />
       <updated>1623791775506</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="JRTB-3 added Command pattern for handling Telegram Bot commands">
+      <created>1624390172091</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1624390172091</updated>
+    </task>
+    <task id="LOCAL-00005" summary="JRTB-3 updated RELEASE_NOTES.md">
+      <created>1624390567288</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1624390567288</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,7 +150,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="JRTB-3" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
@@ -162,6 +168,8 @@
     <MESSAGE value="minor fixes" />
     <MESSAGE value="JRTB-2 added stub telegrambot to the project" />
     <MESSAGE value="JRTB-2 updated project version and added to RELEASE_NOTES.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="JRTB-2 updated project version and added to RELEASE_NOTES.md" />
+    <MESSAGE value="JRTB-3 added Command pattern for handling Telegram Bot commands" />
+    <MESSAGE value="JRTB-3 updated RELEASE_NOTES.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="JRTB-3 updated RELEASE_NOTES.md" />
   </component>
 </project>
